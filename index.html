@@ -26,7 +26,7 @@
 			var destination = getQueryVariable(KEY_DESTINATION);
 
 			if (isBlank(destination)) {
-				alert(KEY_DESTINATION + "参数为空！");
+				alert(KEY_DESTINATION + " cannot be empty!");
 			} else {
 				setTimeout(() => {
 					window.location = destination;
